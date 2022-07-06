@@ -16,5 +16,7 @@
     "bugs": {
         "url": "https://github.com/maggot-code/Genesis/issues"
     },
-    "homepage": "https://github.com/maggot-code/Genesis#readme"
+    "homepage": "https://github.com/maggot-code/Genesis#readme",
+    "devDependencies": {},
+    "dependencies": {}
 }
