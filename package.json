@@ -1,0 +1,17 @@
+{
+    "name": "@cabala/genesis",
+    "version": "1.0.1-0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/maggot-code/Genesis.git"
+    },
+    "author": "maggot-code",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/maggot-code/Genesis/issues"
+    },
+    "homepage": "https://github.com/maggot-code/Genesis#readme"
+}
