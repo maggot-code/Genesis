@@ -4,6 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {},
+    "publishConfig": {
+        "access": "public"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/maggot-code/Genesis.git"
