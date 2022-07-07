@@ -2,8 +2,21 @@
     "name": "@bibel/genesis",
     "version": "1.0.2-0",
     "description": "",
-    "main": "index.js",
-    "scripts": {},
+    "files": [
+        "dist"
+    ],
+    "main": "./dist/my-lib.umd.js",
+    "module": "./dist/my-lib.mjs",
+    "exports": {
+        ".": {
+            "import": "./dist/my-lib.mjs",
+            "require": "./dist/my-lib.umd.js"
+        }
+    },
+    "scripts": {
+        "build": "npm run clear && vite build",
+        "clear": "npm cache clean --force && npm cache verify"
+    },
     "publishConfig": {
         "access": "public"
     },
@@ -17,6 +30,17 @@
         "url": "https://github.com/maggot-code/Genesis/issues"
     },
     "homepage": "https://github.com/maggot-code/Genesis#readme",
-    "devDependencies": {},
-    "dependencies": {}
+    "devDependencies": {
+        "@vitest/ui": "^0.17.0",
+        "eslint": "^8.19.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "prettier": "^2.7.1",
+        "typescript": "^4.7.4",
+        "vite": "^2.9.13",
+        "vitest": "^0.17.0"
+    },
+    "dependencies": {
+        "rxjs": "^7.5.5"
+    }
 }

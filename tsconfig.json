@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "sourceMap": true,
+        "jsx": "preserve",
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "skipDefaultLibCheck": true,
+        "skipLibCheck": true,
+        "allowJs": false,
+        "strict": true,
+        "noEmitOnError": true,
+        "noUnusedLocals": true,
+        "noImplicitAny": false,
+        "experimentalDecorators": true,
+        "useDefineForClassFields": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "removeComments": true,
+        "declaration": true,
+        "declarationMap": false,
+        "suppressImplicitAnyIndexErrors": true,
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "types": [],
+        "typeRoots": [],
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
